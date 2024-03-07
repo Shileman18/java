@@ -1,0 +1,22 @@
+package polymorphism_program;
+
+public class employee {
+	int eid;
+	String ename;
+	double sal;
+	public void work()
+	{
+		
+	}
+	public void displayinfo()
+	{
+		System.out.println("ename="+this.ename+ " eid="+this.eid+ " sal="+this.sal);
+	}
+	
+ public employee(int eid, String ename, double sal)
+ {
+	 this.eid=eid;
+	 this.ename=ename;
+	 this.sal=sal;
+ }
+}

@@ -1,0 +1,26 @@
+package inheritance_program;
+
+public class g3 extends g2{
+	int c=300;
+	public void test3()
+	{
+		System.out.println("from test3");
+	}
+	public static void main(String[] args) {
+		g3 ob1=new g3();
+		System.out.println(ob1.a);
+		ob1.test1();
+		System.out.println(ob1.b);
+		ob1.test2();
+		System.out.println(ob1.c);
+	    ob1.test3();
+		System.out.println("---------------");
+		g2 ob2=ob1;//upcasting
+		System.out.println(ob2.a);
+		ob2.test1();
+		System.out.println(ob2.b);
+		ob2.test2();
+		
+		
+	}
+}

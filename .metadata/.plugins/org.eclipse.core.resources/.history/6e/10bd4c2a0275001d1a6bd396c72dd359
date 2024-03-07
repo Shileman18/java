@@ -1,0 +1,16 @@
+package polymorphism_program;
+
+public class bank_driver {
+	public static void main (String[] args)
+	{
+		icici ob1=new icici();
+		hdfc ob2=new hdfc();
+		axis ob3=new axis();
+		System.out.println(ob1.rateofinterest());
+		System.out.println(ob2.rateofinterest());
+		System.out.println(ob3.rateofinterest());
+		
+	}
+
+
+}

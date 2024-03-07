@@ -1,0 +1,13 @@
+package inheritance_program;
+
+public class g2 {
+
+	public static void main(String[] args) {
+		int b=200;
+		public void test2()
+		{
+			System.out.println("from test2");
+		}
+	}
+
+}
